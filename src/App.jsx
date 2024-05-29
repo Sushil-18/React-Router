@@ -1,14 +1,17 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
-
-const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/about", element: <About /> },
-]);
+import Navbar from "./Components/Header/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <Navbar />
+      <Home />
+      {/*  <About />
+      <Footer /> */}
+    </>
+  );
 }
-
 export default App;
