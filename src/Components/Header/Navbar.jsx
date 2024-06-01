@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <div className="flex jusify-center items-center gap-6">
         <p>Log In</p>
-        <button className="border p-2 rounded-md bg-orange-700 text-white">
+        <button className="border p-2 rounded-md bg-orange-700 text-white hover:opacity-80">
           Get Started
         </button>
       </div>

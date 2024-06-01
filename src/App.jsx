@@ -9,8 +9,8 @@ function App() {
     <>
       <Navbar />
       <Home />
-      {/*  <About />
-      <Footer /> */}
+
+      <Footer />
     </>
   );
 }
