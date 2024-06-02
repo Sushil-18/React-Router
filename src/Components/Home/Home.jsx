@@ -22,7 +22,7 @@ const Home = () => {
       </aside>
     </div> */
 
-    <div className="flex mx-auto my-20 w-[80%] justify-between">
+    <div className="flex mx-auto mt-40 mb-80 w-[80%] justify-between">
       <div>
         <img className="w-96" src={HomePageImg} alt="HomePage Image"></img>
       </div>
