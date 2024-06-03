@@ -23,7 +23,11 @@ const Footer = () => {
           <div className="flex flex-col gap-2 items-center">
             <h4 className="text-lg mb-2 font-medium">Follow Us</h4>
             <p>Discord</p>
-            <p>Github</p>
+            <a href="https://github.com/Sushil-18" target="blank">
+              Github
+            </a>
+            {/* <p>Discord</p>
+            <p>Github</p> */}
           </div>
           <div className="flex flex-col gap-2 items-center">
             <h4 className="text-lg mb-2 font-medium">Legel</h4>
