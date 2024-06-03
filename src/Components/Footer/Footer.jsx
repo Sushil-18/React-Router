@@ -3,6 +3,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,8 +15,10 @@ const Footer = () => {
         <div className="flex gap-20">
           <div className="flex flex-col gap-2 items-center">
             <h4 className="text-lg mb-2 font-medium">Resource</h4>
-            <p>Home</p>
-            <p>About</p>
+            <Link to="/">Home</Link>
+            <Link to="about">About</Link>
+            {/* <p>Home</p>
+            <p>About</p> */}
           </div>
           <div className="flex flex-col gap-2 items-center">
             <h4 className="text-lg mb-2 font-medium">Follow Us</h4>
